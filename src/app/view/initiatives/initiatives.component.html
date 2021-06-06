@@ -1,0 +1,19 @@
+<section class="pb-5">
+  <div class="container">
+    <!-- Title -->
+    <div class="text-center pt-5">
+      <h3 class="title-bais">المبادرات</h3>
+    </div>
+    <!-- Cards Content -->
+    <div class="row cards pb-5 pt-5">
+      <div class="card" style="width: 18rem;" *ngFor="let card of cards">
+        <img class="rounded-circle z-depth-2" width="100" height="100" alt="100x100" src="{{card.img}}"
+          data-holder-rendered="true">
+        <div class="card-body text-center mt-5">
+          <h5 class="card-title second-color">{{card.title}}</h5>
+          <a href="#" class="basic-color">{{card.button}}<i class="fa fa-arrow-left second-color mr-2"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

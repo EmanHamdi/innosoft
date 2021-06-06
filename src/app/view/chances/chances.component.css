@@ -1,0 +1,46 @@
+.row{
+    margin-left: unset!important;
+}
+.group{
+    position: absolute;
+    left: -20%;
+    padding-left: 0;
+    margin-left: 0;
+    bottom: -150px;
+}
+.section-title{
+    position: absolute;
+    right: 0;
+    bottom: 80px;
+}
+.bg-section{
+    background: transparent linear-gradient(254deg, #2E2E2E 0%, #262626 100%, #262626 100%) 0% 0% no-repeat padding-box;
+    height: 60vh;
+}
+.second-color{
+  font-size: 28px;
+}
+.text-white{
+  font-size: 48px;
+}
+.section{
+  height: 100vh;
+}
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+.section{
+  height: unset;
+}
+.group{
+  position: unset;
+}
+.section-title{
+  position: unset;
+}
+.bg-section{
+  background-color: unset;
+  height: unset;
+}
+}
+

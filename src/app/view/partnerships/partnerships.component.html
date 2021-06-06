@@ -1,0 +1,28 @@
+<section class="pb-5 pt-5">
+  <div class="container">
+    <!-- Title -->
+    <div class="text-center">
+      <h3 class="title-bais">الشراكات</h3>
+    </div>
+    <!-- carousel -->
+    <ngb-carousel class="pt-3">
+      <!-- Slide one -->
+      <ng-template ngbSlide *ngFor="let card of cards">
+        <!-- Cards -->
+        <div class="row cards pb-5 pt-5">
+          <div class="circileCard col-md-2" *ngFor="let card of cards">
+            <!-- <div class="circle"> -->
+            <img class="rounded-circle z-depth-2" width="50" height="50" alt="100x100" src="{{card.img}}"
+              data-holder-rendered="true" style="background-color: #fff;">
+            <!-- </div> -->
+            <div class="mt-2">
+              <h5 class="second-color">{{card.title}}</h5>
+            </div>
+          </div>
+        </div>
+        <!-- Cards -->
+      </ng-template>
+    </ngb-carousel>
+    <!-- carousel -->
+  </div>
+</section>

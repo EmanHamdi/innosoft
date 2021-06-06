@@ -1,0 +1,17 @@
+.row{
+  justify-content: space-around;
+}
+.bg-section{
+  background-image: linear-gradient(#009EE2, #BCCCD3 , #CFDEE5);
+  height: 250px;
+}
+.parent{
+  position: relative;
+}
+.child{
+  position: absolute;
+  bottom: -60px;
+}
+.text-white{
+  right: 43%;
+}

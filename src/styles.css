@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~normalize.css';
+@import "./assets/css/global-rules.css";
+@import "./assets/css/variable/variable.css";
+@import "./assets/css/basic/basic-page.css";
+@import "./assets/css/responsive/responsive.css";
+
+
+
+

@@ -1,0 +1,16 @@
+<section class="pb-5">
+<div class="bg-section"></div>
+<h3 class="child text-center text-white pt-5">المزايا و الأهداف</h3>
+<div class="container parent">
+  <div class="child">
+    <div class="row">
+      <div class="card text-right col-md-4 col-sm-12"  *ngFor="let basic of basicCards">
+        <div class="card-body">
+          <h5 class="card-title second-color">{{basic.title}}</h5>
+          <p class="card-text hint">{{basic.parag}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>

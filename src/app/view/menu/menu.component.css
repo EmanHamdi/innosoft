@@ -1,0 +1,31 @@
+.nav-item .name-item{
+  color: var(--main-color)!important;
+  font-size: 18px;
+  text-align: right;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+.heading{
+  font-size: 18px;
+  color: var(--second-color)!important;
+}
+.logo{
+  width: 152px;
+  height: 36px;
+}
+.form-inline{
+  justify-content: center;
+}
+.form-inline .icon-color i {
+  color: #191919;
+}
+.form-inline .form{
+  width: 30px;
+  height: 20px;
+  position: relative;
+  margin-left: 30px;
+  border-left: 1px solid #F4F6FA;
+  display: flex;
+  justify-content: center;
+}
+

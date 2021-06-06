@@ -1,0 +1,61 @@
+<section class="pt-5">
+  <div class="container">
+    <!-- Title -->
+    <div class="text-center pt-5">
+      <div>
+        <h3 class="title-bais">الإنجازات</h3>
+      </div>
+      <div class="pt-4">
+        <h5 class="second-title">صور و الأثر يتحدث</h5>
+      </div>
+      <div>
+        <p class="label hint">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص
+          أو
+          شكل توضع الفقرات في الصفحة التي يقرأها.</p>
+      </div>
+    </div>
+    <!-- carousel -->
+    <ngb-carousel class="pt-4">
+      <!-- Slide one -->
+      <ng-template ngbSlide>
+        <!-- Cards -->
+        <div class="row slide">
+          <div class="col-md-5 text-center ml-2" *ngFor="let card of cards" style="width: 100%;">
+            <img class="card-img-top" style="height:50%" src="{{card.img}}" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text paragraph">{{card.prag}}</p>
+            </div>
+          </div>
+        </div>
+        <!-- Cards -->
+      </ng-template>
+      <!-- Slide two -->
+      <ng-template ngbSlide>
+        <!-- Cards -->
+        <div class="row slide">
+          <div class="col-md-5 text-center ml-2" *ngFor="let card of cards" style="width: 100%;">
+            <img class="card-img-top" style="height:50%" src="{{card.img}}" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text paragraph">{{card.prag}}</p>
+            </div>
+          </div>
+        </div>
+        <!-- Cards -->
+      </ng-template>
+      <!-- Slide three -->
+      <ng-template ngbSlide>
+        <!-- Cards -->
+        <div class="row slide">
+          <div class="col-md-5 text-center ml-2" *ngFor="let card of cards" style="width: 100%;">
+            <img class="card-img-top" style="height:50%" src="{{card.img}}" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text paragraph">{{card.prag}}</p>
+            </div>
+          </div>
+        </div>
+        <!-- Cards -->
+      </ng-template>
+    </ngb-carousel>
+    <!-- carousel -->
+  </div>
+</section>

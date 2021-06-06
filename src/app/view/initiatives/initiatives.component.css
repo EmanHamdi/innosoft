@@ -1,0 +1,15 @@
+.rounded-circle{
+  position: relative;
+  right: 32%;
+  top: 40px;
+}
+.cards{
+  justify-content: space-around;
+}
+.card-title{
+  color: var(--hint-color);
+  font-size: 32px;
+}
+.basic-color{
+  font-size: 24px;
+}

@@ -1,0 +1,22 @@
+<section>
+<ngb-carousel *ngIf="images">
+  <ng-template ngbSlide *ngFor="let image of images ;let i = index" [attr.data-index]="++i">
+    <div class="picsum-img-wrapper img-size">
+      <img [src]="image" alt="Random first slide">
+    </div>
+    <div class="carousel-caption">
+      <div class="mb-4">
+        <h3 class="title-baise">{{content.title}}</h3>
+      </div>
+      <div>
+        <p class="pragraph">{{content.pragraph}}</p>
+      </div>
+      <div class="btn-group-lg">
+        <label class="btn-primary button-color label" ngbButtonLabel>
+          التسجيل في المنصة
+        </label>
+      </div>
+    </div>
+  </ng-template>
+</ngb-carousel>
+</section>

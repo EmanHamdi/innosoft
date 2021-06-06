@@ -1,0 +1,12 @@
+.circileCard{
+  text-align: center;
+  padding-right: 10px;
+}
+.row.cards.pb-5.pt-5{
+  justify-content: center;
+}
+.test{
+  border-radius: 50%;
+  background-color: violet;
+}
+

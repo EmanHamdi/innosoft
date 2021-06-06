@@ -1,0 +1,27 @@
+<form>
+  <div class="container">
+    <div class="section-form pb-5">
+      <!-- title -->
+      <div class="text-center pt-5">
+        <h3 class="title-bais">تواصل معنا</h3>
+      </div>
+      <!-- Form -->
+      <div class="row pt-5">
+        <div class="col" *ngFor="let form of forms">
+          <input type="text" class="form-control" placeholder="{{form.placeholder}}">
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-12" *ngFor="let textarea of textarea">
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+            placeholder="{{textarea.placeholder}}"></textarea>
+        </div>
+      </div>
+      <div class="btn-group-lg text-right mt-5">
+        <label class="btn-primary button-color label" ngbButtonLabel>
+          ارسال
+        </label>
+      </div>
+    </div>
+  </div>
+</form>

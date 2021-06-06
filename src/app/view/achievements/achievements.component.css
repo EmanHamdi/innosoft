@@ -1,0 +1,6 @@
+.slide{
+  justify-content: center;
+}
+ol.carousel-indicators li{
+  background-color: #D8D8D8!important;
+}
